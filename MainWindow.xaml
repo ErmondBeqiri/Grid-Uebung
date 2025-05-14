@@ -1,0 +1,41 @@
+﻿<Window x:Class="Grid1_original.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grid1_original"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFFFFDFD">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+        <Label Content=" Überschrift" Grid.Row=" 0" Grid.Column="0" Grid.ColumnSpan="5" Background="#FFC86969"/>
+        <Label Content=" inhalt" Grid.Row=" 1" Grid.Column="0" Grid.ColumnSpan="1" Background="#FFAF4343"/>
+        <Label Content="inhalt " Grid.Row=" 2" Grid.Column="0" Grid.ColumnSpan="1" Background="#FF4A2929"/>
+        <Label Content="inhalt " Grid.Row=" 3" Grid.Column="0" Grid.ColumnSpan="1" Background="#FF64D05B"/>
+        <Label Content="inhalt" Grid.Row=" 1" Grid.Column="1" Grid.ColumnSpan="1" Background="#FF27297B"/>
+        <Label Content=" inhalt" Grid.Row=" 2" Grid.Column="1" Grid.ColumnSpan="1" Background="#FF29A77C"/>
+        <Label Content=" inhalt" Grid.Row=" 3" Grid.Column="1" Grid.ColumnSpan="1" Background="#FF5A1E1E"/>
+        <Label Content=" inhalt" Grid.Row=" 1" Grid.Column="2" Grid.ColumnSpan="1" Background="#FFE0E3E6"/>
+        <Label Content=" inhalt" Grid.Row=" 1" Grid.Column="3" Grid.ColumnSpan="1" Background="Red"/>
+        <Label Content=" inhalt" Grid.Row=" 1" Grid.Column="4" Grid.ColumnSpan="1" Background="#FF25807A"/>
+        <Label Content=" inhalt" Grid.Row=" 2" Grid.Column="2" Grid.ColumnSpan="1" Background="#FF766AB3"/>
+        <Label Content=" inhalt" Grid.Row=" 2" Grid.Column="4" Grid.ColumnSpan="1" Background="#FF642677"/>
+        <Label Content=" inhalt" Grid.Row=" 2" Grid.Column="3" Grid.ColumnSpan="1" Background="#FF5B1B1B"/>
+        <Label Content=" inhalt" Grid.Row=" 3" Grid.Column="2" Grid.ColumnSpan="1" Background="#FF40A78D"/>
+        <Label Content=" inhalt" Grid.Row=" 3" Grid.Column="3" Grid.ColumnSpan="1" Background="#FF96263F"/>
+        <Label Content=" inhalt" Grid.Row=" 3" Grid.Column="4" Grid.ColumnSpan="1" Background="#FF4A0C0C"/>
+       
+    </Grid>
+</Window>
